@@ -16,6 +16,7 @@ If you need a bit of help or have comments, feel free to [contact me](http://dea
 - [Last important thing: YAML front matter](#last-important-thing-yaml-front-matter)
 - [Features](#features)
 - [More advanced features](#more-advanced-features)
+- [Advanced: local development](#advanced-local-development)
 - [Featured users](#featured-users)
 - [Credits](#credits)
 - [Contributions](#contributions)
@@ -53,14 +54,13 @@ You can now visit your shiny new website, which will be seeded with several samp
 
 **Note:** The GIF above goes through the setup for a user with username `daattalitest`. I only edited one setting in the `_config.yml` file in the video, but **you should actually go through the rest of the settings as well. Don't be lazy, go through all the settings :)**
 
-
 ### Add your own content
 
 To add pages to your site, you can either write a markdown file (`.md`) or you can write an HTML file directly.  It is much easier to write mardown than HTML, so I suggest you do that (use the tutorial above if you need to learn markdown). You can look at some files on this site to get an idea of how to write markdown. To look at existing files, click on any file that ends in `.md`, for example [`aboutme.md`](./aboutme.md). On the next page you can see some nicely formatted text (there is a word in bold, a link, bullet points), and if you click on the pencil icon to edit the file, you will see the markdown that generated the pretty text. Very easy!
 
 In contrast, look at [`index.html`](./index.html). That's how your write HTML - not as pretty. So stick with markdown if you don't know HTML.
 
-Any file that you add inside the [`_posts`](./_posts) directory will be treated as a blog entry.  You can look at the existing files there to get an idea of how to write blog posts.
+Any file that you add inside the [`_posts`](./_posts) directory will be treated as a blog entry.  You can look at the existing files there to get an idea of how to write blog posts.  After you successfully add your own post, you can delete the existing files [`_posts`](./_posts), as those are just demo posts to help you learn.
 
 As mentioned previously, you can use [prose.io](http://prose.io/) to add or edit files instead of doing it directly on GitHub, it can be a little easier that way.
 
@@ -98,7 +98,7 @@ Many personalization settings in `_config.yml`, such as setting your name and si
 
 #### Letting users leave comments
 
-If you want to enable comments on your site, Beautiful Jekyll supports the [Disqus](disqus.com) comments plugin.  To use it, simply sign up to Disqus and add your Disqus shortname to the `disqus` parameter in the `_config.yml`.
+If you want to enable comments on your site, Beautiful Jekyll supports the [Disqus](https://disqus.com/) comments plugin.  To use it, simply sign up to Disqus and add your Disqus shortname to the `disqus` parameter in the `_config.yml`.
 
 If the `disqus` parameter is set in the configuration file, then all blog posts will have comments turned on by default. To turn off comments on a particular blog post, add `comments: false` to the YAML front matter. If you want to add comments on the bottom of a non-blog page, add `comments: true` to the YAML front matter.
 
@@ -148,9 +148,19 @@ To set up a GitHub Project page, simply fork this repository into a branch calle
 
 I wrote [a blog post](http://deanattali.com/2015/03/12/beautiful-jekyll-how-to-build-a-site-in-minutes/) describing some more advanced features that I used in my website that are applicable to any Jekyll site.  It describes how I used a custom URL for my site (deanattali.com instead of daattali.github.io), how to add a Google-powered search into your site, and provides a few more details about having an RSS feed. 
 
+### Advanced: Local development
+
+Beautiful Jekyll is meant to be so simple to use that you can do it all within the browser. However, if you'd like to develop locally on your own machine, that's possible too if you're comfortable with command line. Folow these simple steps to do that with Vagrant:
+
+1. Install [VirtualBox](http://virtualbox.org) and [Vagrant](https://www.vagrantup.com)
+2. Clone your fork `git clone git@github.com:yourusername/yourusername.github.io.git`
+3. Inside your repository folder, run `vagrant up`
+4. View your website at `http://0.0.0.0:4000` on *nix or `http://127.0.0.1:4000` on Windows. 
+5. Commit any changes and push everything to the master branch of your GitHub repository. GitHub Pages will then rebuild and serve your website automatically.
+
 ### Featured users
 
-To my huge surprise, Beautiful Jekyll has been used in over 100 websites in its first 6 months. Here is a hand-picked selection of some websites that use Beautiful Jekyll.
+To my huge surprise, Beautiful Jekyll has been used in over 500 websites in its first 6 months. Here is a hand-picked selection of some websites that use Beautiful Jekyll.
 
 Want your website featured here? [Contact me](http://deanattali.com/aboutme#contact) to let me know about your website.
 
@@ -159,11 +169,11 @@ Want your website featured here? [Contact me](http://deanattali.com/aboutme#cont
 | Website | Description |
 | :------ |:----------- |
 | [teampass.net](http://teampass.net) | Collaborative Passwords Manager |
-| [droglenc.github.io/fishR](http://droglenc.github.io/fishR) | R for Fisheries |
+| [derekogle.com/fishR](http://derekogle.com/fishR/) | Using R for Fisheries Analyses |
 | [bigdata.juju.solutions](http://bigdata.juju.solutions) | Creating Big Data solutions Juju Solutions |
+| [joecks.github.io/clipboard-actions](http://joecks.github.io/clipboard-actions/) | Clipboard Actions - an Android app |
 | [embedded.guide](http://embedded.guide) | Writing an Embedded OS |
 | [blabel.github.io](http://blabel.github.io) | Library for canonicalising blank node labels in RDF graphs |
-| [pracademic.io](http://pracademic.io) | Quick tutorials in R |
 | [organicrails.github.io](http://organicrails.github.io) | Ruby on Rails tutorial |
 | [esentire.github.io](https://esentire.github.io) | Blog about threats and malware | 
 
@@ -174,7 +184,7 @@ Want your website featured here? [Contact me](http://deanattali.com/aboutme#cont
 | [deanattali.com](http://deanattali.com) | Dean Attali | Creator of Beautiful Jekyll |
 | [ouzor.github.io](http://ouzor.github.io) | Juuso Parkkinen | Data scientist |
 | [scottsmerchek.com](http://scottsmerchek.com) | Scott Smerchek | Software developer |
-| [onebree.github.io](http://onebree.github.io) | Hunter Stevens | Web developer |
+| [derekogle.com](http://derekogle.com/) | Derek Ogle | Professor of Mathematical Sciences and Natural Resources |
 | [drissamri.be](https://drissamri.be) | Driss Amri | Software engineer |
 | [adammckay.co.uk](http://adammckay.co.uk) | Adam McKay | Software developer |
 | [tomwhite.io](http://tomwhite.io) | Thomas White | Ecology PhD student |
@@ -182,7 +192,6 @@ Want your website featured here? [Contact me](http://deanattali.com/aboutme#cont
 | [bkkkk.github.io](http://bkkkk.github.io) | Jacobo Blanco | Data scientist |
 | [chadchae.github.io](http://chadchae.github.io) | Chad Chae | Data analyst |
 | [trappmartin.github.io](http://trappmartin.github.io) | Martin Trapp | Machine learning researcher |
-| [billy.sh](http://billy.sh/) | Billy Vera | Systems engineer |
 
 ### Credits
 
