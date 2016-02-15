@@ -14,39 +14,36 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Shrek Tan's Online Home
+title: Shrek Tan
 
 # Short description of your site
-description: I'm Xianying Tan, from Beijing, China. I'm an addicted R user.
+description: I'm Shrek Tan, from Beijing, China. I'm an addicted R user.
 
 # --- Navigation bar options --- #
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+# avatar: "/img/avatar-icon.png"
 
 # List of links in the navigation bar
 navbar-links:
   Home: ""
   About Me: "aboutme"
-  Author's home: "http://deanattali.com"
+  Author's home: "http://shrektan.github.io"
   
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Shrek Tan
   email: "shrektan@126.com"
-  facebook: yourname  # eg. daattali
   github: shrektan    # eg. daattali
-  twitter: yourname   # eg. daattali
-  linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
-  stackoverflow: yourlink  # eg. "3943160/daattali"
+  linkedin: https://cn.linkedin.com/in/xianying-tan-45833177  # eg. "pub/dean-attali/8/946/143"
  
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
+  rss: true
   email: true
   github: true
   linkedin: true
