@@ -1,16 +1,11 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Passionate inside
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Shrek Tan. I'm a passionate R user with huge interest in beautiful graphs and typesetting. I'm also a quant.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I'm living in Beijing.
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Ha, I'll continue this article later in this week.
