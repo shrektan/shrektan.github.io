@@ -68,8 +68,8 @@ url-pretty: "ShrekTan.com"  # eg. "deanattali.com/beautiful-jekyll"
 # Output options (more information on Jekyll's site)
 timezone: "America/Vancouver"
 markdown: kramdown
-highlighter: pygments
-permalink: /:year-:month-:day-:title
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
 paginate: 5
 
 # Default YAML values (more information on Jekyll's site)
@@ -85,6 +85,7 @@ defaults:
       path: "" # all files
     values:
       layout: "default"
+      show-avatar: true
 
 # Exclude these files from production site
 exclude:
