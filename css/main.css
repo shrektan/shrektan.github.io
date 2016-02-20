@@ -61,12 +61,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #222222;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #222222;
 }
 img::selection {
   color: white;
@@ -414,4 +414,12 @@ table tr td :first-child {
 table tr th :last-child,
 table tr td :last-child {
   margin-bottom: 0;
+}
+
+/* ----- shrek added ------- */
+.text-muted {
+  color: #ffffff; 
+}
+.fa-inverse {
+  color: #222222;
 }
