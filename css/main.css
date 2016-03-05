@@ -31,6 +31,11 @@ a:focus {
 blockquote {
   color: #808080;
   font-style: italic;
+  font-size: 15.5px;
+  margin: 10px 0;
+}
+blockquote p {
+  margin: 0 0;
 }
 hr.small {
   max-width: 100px;
