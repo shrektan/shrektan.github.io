@@ -54,6 +54,5 @@ title: 写作计划
 - A shiny app with a tangible model behind (use the idea of Class in R)
 - .docx, .xlsx, .pptx, .pdf, .html -> Oh, all can be reproducible.
     
-> 不是我装怪，有些东西确实是英文更好表达… 可能我就是在装怪，哈哈哈。
 
 To be continued (2016.02.27 21:57)
